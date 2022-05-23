@@ -1,0 +1,18 @@
+.slider-sponsor{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider-sponsor ul{
+    display: flex;
+    width: 100%;
+    animation: cambio-2 infinite;
+    animation-duration: 20s;
+}
+
+@keyframes cambio-2 {
+    0% {margin-left: 0%;}
+    50%{margin-left: -610%;}
+    100%{margin-left: 0%;}
+}

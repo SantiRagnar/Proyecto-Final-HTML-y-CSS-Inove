@@ -1,0 +1,67 @@
+:root{
+    --main-color: #fd611a;
+    --main-color-blur: rgba(187, 70, 16, 1) 
+}
+
+header{
+    position: sticky;
+}
+
+.navbar{
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    background-color: white;
+}
+
+.logo img{
+    width: 80%;
+}
+
+.menu-cont{
+    background-color: var(--main-color);
+    padding: 5px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu li{
+    padding: 5px 5px;
+    transition: 0.15s;
+}
+
+a{
+    font-size: 20px;
+
+}
+
+#profile{
+    font-size: 28px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu .special:hover{
+    padding-bottom: 8px;
+    padding-top:0px;
+    border-bottom: 2px solid black;
+    
+}
+
+
+
+
+
+
