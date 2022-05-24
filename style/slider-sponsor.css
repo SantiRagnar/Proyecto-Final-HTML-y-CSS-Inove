@@ -8,11 +8,11 @@
     display: flex;
     width: 100%;
     animation: cambio-2 infinite;
-    animation-duration: 20s;
+    animation-duration: 40s;
 }
 
 @keyframes cambio-2 {
     0% {margin-left: 0%;}
-    50%{margin-left: -610%;}
+    50%{margin-left: -450%;}
     100%{margin-left: 0%;}
 }

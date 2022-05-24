@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./style/nav.css">
     <link rel="stylesheet" href="./style/slider-prod.css">
     <link rel="stylesheet" href="./style/slider-sponsor.css">
+    <link rel="stylesheet" href="./style/card.css">
+    <link rel="stylesheet" href="./style/footer.css">
     <title>Proyecto Final Inove</title>
 </head>
 <body>
@@ -62,36 +64,91 @@
             </ul>
             <!-- Slider con foto de prod -->
         </section>
-        <section class="grid-prod">
-            <div class="card">
-                <img class="img-prod" src="" alt="">
-                <h3 class="name-prod"></h3>
-                <p class="price-prod"></p>
+        <section class="prod">
+            <div class="prod-title">
+                <h1>¡Productos destacados de la semana!</h1>
             </div>
-            <div class="card">
-                <img class="img-prod" src="" alt="">
-                <h3 class="name-prod"></h3>
-                <p class="price-prod"></p>
-            </div>
-            <div class="card">
-                <img class="img-prod" src="" alt="">
-                <h3 class="name-prod"></h3>
-                <p class="price-prod"></p>
-            </div>
-            <div class="card">
-                <img class="img-prod" src="" alt="">
-                <h3 class="name-prod"></h3>
-                <p class="price-prod"></p>
-            </div>
-            <div class="card">
-                <img class="img-prod" src="" alt="">
-                <h3 class="name-prod"></h3>
-                <p class="price-prod"></p>
-            </div>
-            <div class="card">
-                <img class="img-prod" src="" alt="">
-                <h3 class="name-prod"></h3>
-                <p class="price-prod"></p>
+            <div class="prod-grid">
+                <div class="card">
+                    <img class="card-img" src="https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_32389_Placa_de_Video_MSI_GeForce_RTX_3090_24GB_GDDR6X_VENTUS_3X_OC_bb8b3dba-med.jpg" alt="Imagen de producto">
+                    <div class="card-text">
+                        <span class="t-prod">Placa de Video</span>
+                        <span class="m-prod">MSI</span>
+                        <h3 class="name-prod">GeForce RTX 3090 24GB GDDR6X VENTUS 3X OC</h3>
+                        <span class="price-prod">$446.340</span>
+                        <button class="btn">SUMAR AL CARRITO</button>
+                    </div>        
+                </div>
+                <div class="card">
+                    <img class="img-prod" src="https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_32388_Placa_de_Video_Zotac_GeForce_RTX_3090_24GB_GDDR6X_Trinity_14af4797-med.jpg" alt="Imagen de producto">
+                    <div class="card-text">
+                        <span class="t-prod">Placa de Video</span>
+                        <span class="m-prod">Zotac</span>
+                        <h3 class="name-prod">GeForce RTX 3090 24GB GDDR6X Trinity</h3>
+                        <span class="price-prod">$380.000</span>
+                        <button class="btn">SUMAR AL CARRITO</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="img-prod" src="https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_31776_Memoria_GeiL_DDR4_16GB_3000MHz_Super_Luce_RGB_Black_646b61f7-med.jpg" alt="Imagen de producto">
+                    <div class="card-text">
+                        <span class="t-prod">Memoria Ram</span>
+                        <span class="m-prod">GeiL</span>
+                        <h3 class="name-prod">DDR4 16GB 3000MHz Super Luce RGB Black</h3>
+                        <span class="price-prod">$11.340</span>
+                        <button class="btn">SUMAR AL CARRITO</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="img-prod" src="https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_30650_Notebook_Gamer_AORUS_KD_15.6__Core_I7_11800H_16GB__2x8GB__512GB_SSD_NVMe_RTX_3060_240Hz_W11_02c902ce-med.jpg" alt="Imagen de producto">
+                    <div class="card-text">
+                        <span class="t-prod">Notebook</span>
+                        <span class="m-prod">AORUS</span>
+                        <h3 class="name-prod">KD 15.6" Core I7 11800H 16GB (2x8GB) 512GB SSD NVMe RTX 3060 240Hz W11</h3>
+                        <span class="price-prod">$310.500</span>
+                        <button class="btn">SUMAR AL CARRITO</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="img-prod" src="https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_17898_Procesador_AMD_Ryzen_5_1600_AF_Zen__12nm_AM4_Wraith_Stealth_Cooler_187bb9ab-med.jpg" alt="Imagen de producto">
+                    <div class="card-text">
+                        <span class="t-prod">Procesador</span>
+                        <span class="m-prod">AMD</span>
+                        <h3 class="name-prod">Ryzen 5 1600 AF Zen+ 12nm AM4</h3>
+                        <span class="price-prod">$32.331</span>
+                        <button class="btn">SUMAR AL CARRITO</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="img-prod" src="https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_20250_Gabinete_Kolink_Void_ARGB_ATX_Vidrio_Templado_f962dc11-med.jpg" alt="Imagen de producto">
+                    <div class="card-text">
+                        <span class="t-prod">Gabinete</span>
+                        <span class="m-prod">Kolink</span>
+                        <h3 class="name-prod">Void ARGB ATX Vidrio Templado</h3>
+                        <span class="price-prod">$6.850</span>
+                        <button class="btn">SUMAR AL CARRITO</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="img-prod" src="https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_21233_Mouse_Glorious_Model_D_Minus_-_Matte_Black_ad043ce3-med.jpg" alt="Imagen de producto">
+                    <div class="card-text">
+                        <span class="t-prod">Mouse</span>
+                        <span class="m-prod">Glorious</span>
+                        <h3 class="name-prod">Model D Minus - Matte Black</h3>
+                        <span class="price-prod">$6.480</span>
+                        <button class="btn">SUMAR AL CARRITO</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="img-prod" src="https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_22432_Fuente_ASUS_ROG_STRIX_750G_80_Plus_Gold_750W_Full_Modular_38c61d29-med.jpg" alt="Imagen de producto">
+                    <div class="card-text">
+                        <span class="t-prod">Fuente</span>
+                        <span class="m-prod">ASUS</span>
+                        <h3 class="name-prod">ROG STRIX 750G 80 Plus Gold 750W Full Modular</h3>
+                        <span class="price-prod">$30.620</span>
+                        <button class="btn">SUMAR AL CARRITO</button>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="slider-sponsor">
@@ -146,15 +203,14 @@
         </section>
     </div>
     <footer>
-        <div class="datafiscal">
+        <div class="dataf">
             <!-- img data fiscal -->
             <a href="">
-                <img src="" alt="">
+                <img src="https://www.afip.gob.ar/images/f960/DATAWEB.jpg" alt="data fiscal" width="100px">
             </a>
         </div>
-        <div class="trabaja con nosotros">
-            <h2>Trabajá con nosotros</h2>
-            <a href="">Completá el formulario</a><br>
+        <div class="carrers">
+            <a href="">¡Trabajá con nosotros!</a>
             <a href="">Botón de arrepentimiento</a>
         </div>
         <div class="ayuda">

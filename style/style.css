@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Signika&family=Signika+Negative:wght@300&display=swap');
+
 *{
     list-style: none;
     top: 0;
     left: 0;
     margin: 0;
     padding: 0;
+    /* font-family: 'Koulen', cursive; */
+    /* font-family: 'Signika', sans-serif; */
+    font-family: 'Signika Negative', sans-serif;
 }
 
 

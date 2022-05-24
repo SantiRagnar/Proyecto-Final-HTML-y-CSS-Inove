@@ -1,0 +1,89 @@
+:root{
+    --main-color: #fd611a;
+    --main-color-blur: rgba(187, 70, 16, 0.5); 
+    --color-border: rgba(180, 180, 180, 0.2);
+    --color-t-prod: rgba(180, 180, 180, 1);
+    --color-background-card: #fc61192a;
+}
+
+.prod{
+    margin: 50px 0px;
+}
+
+.prod-title{
+    margin: 10px 10px;
+    text-align: center;
+    border-bottom: 2px solid var(--main-color);
+}
+
+.prod-title > h1{
+    margin-bottom: 15px;
+}
+
+
+.prod-grid{
+    margin: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 20px;
+    padding: 15px 10px 5px 10px;
+    text-align: center;
+    width: 300px;
+    border: 1px solid rgba(180, 180, 180, 0.2);
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 0px 15px 0px;
+    align-items: center;
+    border-top: 1px solid var(--color-border);
+}
+
+.t-prod{
+    color: var(--color-t-prod);
+    margin: 10px 0px;
+}
+
+.m-prod{
+    margin-bottom: 5px;
+}
+
+.price-prod{
+    padding: 6px;
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn{
+    padding: 8px;
+    color: white;
+    background-color: var(--main-color);
+    border: 2px solid var(--main-color-blur);
+    border-radius: 8px;
+    transition: transform 100ms;
+
+}
+
+.btn:active{
+    transform: translateY(2px) translateX(2px);
+}
+
+.card:hover{
+    border: 1px solid rgba(180, 180, 180, 0.5);
+    border-radius: 10px;
+    box-shadow: var(--color-background-card) 4px 4px 2px;
+}

@@ -25,18 +25,19 @@ header{
 
 .menu-cont{
     background-color: var(--main-color);
-    padding: 5px;
+    padding: 0px 5%;
 }
 
 .menu{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0px 5px;
 }
 
 .menu li{
     padding: 5px 5px;
-    transition: 0.15s;
+    transition: 100ms;
 }
 
 a{
@@ -54,7 +55,7 @@ a{
 }
 
 .menu .special:hover{
-    padding-bottom: 8px;
+    padding-bottom: 5px;
     padding-top:0px;
     border-bottom: 2px solid black;
     

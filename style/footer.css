@@ -1,0 +1,55 @@
+:root{
+    --main-color: #fd611a;
+}
+
+footer{
+    background-color: var(--main-color);
+    display: grid;
+    grid-template: repeat(2,minmax(10px, 1fr)) / repeat(2,minmax(10px, 1fr));
+    grid-template-areas: 
+        "d a"
+        "c r"
+    ;
+    padding: 10px;
+    color: white;
+
+    
+}
+/* --------------------------------- */
+.dataf{
+    grid-area: d;
+    margin: auto;
+}
+/* --------------------------------- */
+.carrers{
+    grid-area: c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 10px;
+}
+
+.carrers>a{
+    font-size: 14px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.carrers>a:active{
+transform: translateY(4px) translateX(4px);
+}
+/* --------------------------------- */
+.ayuda{
+    grid-area: a;
+    border-left: 1px solid white;
+    display: flex;
+    flex-direction: column;
+}
+/* --------------------------------- */
+.redes-soc{
+    grid-area: r;
+}
