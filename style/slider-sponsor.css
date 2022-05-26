@@ -13,6 +13,6 @@
 
 @keyframes cambio-2 {
     0% {margin-left: 0%;}
-    50%{margin-left: -450%;}
+    50%{margin-left: -500%;}
     100%{margin-left: 0%;}
 }

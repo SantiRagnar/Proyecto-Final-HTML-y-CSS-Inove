@@ -1,0 +1,57 @@
+:root{
+    --main-color: #fd611a;
+    --main-color-blur: rgba(187, 70, 16, 1) 
+}
+
+*{
+    text-decoration: none;
+}
+
+header{
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 15px;
+    background-color: var(--main-color);
+}
+
+/* ------------------------------ */
+
+.menu-desp{
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    transform: translate(0px,92px);
+    background-color: var(--main-color);
+    width: 200px;
+    margin-left: 10px;
+}
+
+.menu-desp > li{
+    padding: 5px 0px;
+    width: 100%;
+}
+
+.menu-desp > li > a{
+    color: white;
+}
+
+.menu-phone:hover > .menu-desp{
+    display: flex;
+}
+
+.menu-desp > li:hover{
+    background-color: var(--main-color-blur);
+}
+
+/* ------------------------------ */

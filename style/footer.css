@@ -1,5 +1,6 @@
 :root{
     --main-color: #fd611a;
+    --color-font: rgba(255, 255, 255, 0.452);
 }
 
 footer{
@@ -28,6 +29,7 @@ footer{
     justify-content: space-evenly;
     text-align: center;
     padding: 10px;
+    border-top: 1px solid var(--color-font);
 }
 
 .carrers>a{
@@ -37,6 +39,7 @@ footer{
     color: white;
     border: 1px solid white;
     border-radius: 5px 5px 5px 5px;
+    margin: 5px;
 }
 
 .carrers>a:active{
@@ -45,11 +48,52 @@ transform: translateY(4px) translateX(4px);
 /* --------------------------------- */
 .ayuda{
     grid-area: a;
-    border-left: 1px solid white;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    border-left: 1px solid var(--color-font);
+    padding: 10px;
 }
+
+.ayuda > h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.ayuda > span{
+    font-size: 12px;
+}
+
+.ayuda > a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 5px 5px 5px;
+    text-align: center;
+    padding: 5px;
+    margin: 10px 5px;
+}
+
+.ayuda > a:active{
+    transform: translateY(4px) translateX(4px);
+    }
+
 /* --------------------------------- */
 .redes-soc{
     grid-area: r;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid var(--color-font);
+    border-left: 1px solid var(--color-font);
+}
+
+.redes-soc>a{
+    margin: 10px;
+    color: white;
+    font-size: 30px;
 }
