@@ -8,7 +8,7 @@
     display: flex;
     width: 500%;
     animation: cambio infinite;
-    animation-duration: 25s ;
+    animation-duration: 30s ;
     animation-direction: alternate;
 }
 
@@ -26,14 +26,37 @@
     20% {margin-left: 0%;}
     
     20% {margin-left: -100%;}
-    40% {margin-left: -100%;}
     
     40% {margin-left: -200%;}
-    60% {margin-left: -200%;}
     
     60% {margin-left: -300%;}
-    80% {margin-left: -300%;}
 
-    80% {margin-left: -400%;}
     100% {margin-left: -400%;}
+}
+
+@media only screen and (min-width:768px){
+    .slider-prod{
+        text-align: center;
+        padding-top: 0.5%;
+    }
+
+    .slider-prod img{
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    .slider-prod{
+        text-align: center;
+        height: 600px;
+    }
+
+    .slider-prod ul{
+        height: 100%;
+    }
+    
+    .slider-prod img{
+        width: 60%;
+        height: 100%;
+    }
 }

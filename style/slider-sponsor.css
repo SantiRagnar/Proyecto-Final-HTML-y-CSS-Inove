@@ -8,11 +8,114 @@
     display: flex;
     width: 100%;
     animation: cambio-2 infinite;
-    animation-duration: 40s;
+    animation-direction:normal;
+    animation-duration: 20s;
 }
 
 @keyframes cambio-2 {
-    0% {margin-left: 0%;}
-    50%{margin-left: -500%;}
-    100%{margin-left: 0%;}
+    0%{margin-left: 0%;}
+
+    7%{margin-left: -150px;}
+
+    14%{margin-left: -300px;}
+
+    21%{margin-left: -450px;}
+
+    28%{margin-left: -600px;}
+
+    35%{margin-left: -750px;}
+
+    42%{margin-left: -900px;}
+
+    49%{margin-left: -1050px;}
+
+    56%{margin-left: -1200px;}
+
+    63%{margin-left: -1350px;}
+
+    70%{margin-left: -1500px;}
+
+    77%{margin-left: -1650px;}
+    
+    84%{margin-left: -1800px;}
+    
+    91%{margin-left: -1950px;}
+}
+
+@media only screen and (min-width:768px){
+    @keyframes cambio-2 {
+        0%{margin-left: 0%;}
+    
+        7%{margin-left: -150px;}
+    
+        14%{margin-left: -300px;}
+    
+        21%{margin-left: -450px;}
+    
+        28%{margin-left: -600px;}
+    
+        35%{margin-left: -750px;}
+    
+        42%{margin-left: -900px;}
+    
+        49%{margin-left: -1050px;}
+    
+        56%{margin-left: -1200px;}
+    
+        63%{margin-left: -1350px;}
+    
+        70%{margin-left: -1500px;}
+    }
+}
+
+@media only screen and (min-width:1024px){
+    @keyframes cambio-2 {
+        0%{margin-left: 0%;}
+    
+        7%{margin-left: -150px;}
+    
+        14%{margin-left: -300px;}
+    
+        21%{margin-left: -450px;}
+    
+        28%{margin-left: -600px;}
+    
+        35%{margin-left: -750px;}
+    
+        42%{margin-left: -900px;}
+    
+        49%{margin-left: -1050px;}
+    
+        56%{margin-left: -1200px;}
+    
+        63%{margin-left: -1350px;}
+    }
+}
+
+@media only screen and (min-width:1440px){
+    @keyframes cambio-2 {
+        0%{margin-left: 0%;}
+    
+        7%{margin-left: -150px;}
+    
+        14%{margin-left: -300px;}
+    
+        21%{margin-left: -450px;}
+    
+        28%{margin-left: -600px;}
+    
+        35%{margin-left: -750px;}
+    
+        42%{margin-left: -900px;}
+    }
+}
+
+@media only screen and (min-width:2250px){
+    .slider-sponsor ul{
+        justify-content: space-around;
+    }
+    @keyframes cambio-2 {
+        0%{margin-left: 0%;}
+
+    }
 }
