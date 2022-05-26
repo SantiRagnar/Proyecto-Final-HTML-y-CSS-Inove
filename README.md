@@ -24,4 +24,4 @@ Los cambios que realize fueron los siguientes:
 
 ### ¿Cual fue el resultado?
 
-Pueden ver el resultado haciendo [click aqui]()
+Pueden ver el resultado haciendo [click aqui](https://santiragnar.github.io/Proyecto-Final-HTML-y-CSS-Inove/)
